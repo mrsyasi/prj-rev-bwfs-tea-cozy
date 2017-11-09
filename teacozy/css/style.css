@@ -1,0 +1,119 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  margin: 0px;
+}
+
+nav {
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  background-color: black;
+  width: 100%;
+  display: flex;
+  top: 0px;
+  z-index: 1000;
+}
+
+nav img {
+  height: 50px;
+  padding: 10px;
+}
+
+nav ul {
+  display: inline-block;
+  flex-grow: 1;
+  text-align: right;
+  margin-right: 10px;
+}
+
+.text_header {
+  text-decoration: underline;
+  display: inline-block;
+}
+
+#mission {
+  background-image: url("../resources/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+#mission .text_container {
+  margin: auto;
+  background-color: black;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  top: 325px;
+  width: 1200px;
+}
+
+#mission .text {
+  margin: auto;
+  padding: 10px;
+}
+
+#featured {
+  height: 100%;
+  width: 1000px;
+  text-align: center;
+  margin: 50px auto;
+}
+
+#blitz, #rum, #donuts {
+  display: inline-block;
+}
+
+#myrtle, #bedford {
+  display: inline-block;
+}
+
+.img_featured {
+  height: 200px;
+  width: 300px;
+  padding: 10px 12.5px 0px 12.5px;
+}
+
+#featured .text {
+  margin: auto;
+  padding: 10px 0px;
+}
+
+#locations {
+  background-image: url("../resources/img-locations-background.jpg");
+  height: 500px;
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#locations .locations_container {
+  padding-top: 70px;
+}
+
+#locations .text {
+  margin: 0 auto;
+  padding: 15px 0px;
+}
+
+#locations .address {
+  width: 300px;
+  opacity: 1;
+  display: inline-block;
+  margin: 15px 20px;
+  background-color: black;
+}
+
+.contact {
+  height: 200px;
+  text-align: center;
+}
+
+.footer {
+  padding-left: 20px;
+  text-align: left;
+}
